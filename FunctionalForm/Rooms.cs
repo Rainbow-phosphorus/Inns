@@ -209,11 +209,12 @@ namespace Inns.UserForm
             manager.parametersPanel();
         }
 
+        //добавляет список номеров csv 
         private void buttonDownloadNomer_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
             openFileDialog1.Filter = "Формат|*.csv";
-            openFileDialog1.Title = "Выберите ранее записанный график в формате .csv";
+            openFileDialog1.Title = "Выберите файл в формате .csv";
 
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
