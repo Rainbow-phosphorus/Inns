@@ -36,6 +36,7 @@
             this.dataGridViewNomer = new System.Windows.Forms.DataGridView();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.buttonDownloadNomer = new System.Windows.Forms.Button();
             this.buttonAddNomer = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.textBox6 = new System.Windows.Forms.TextBox();
@@ -72,7 +73,6 @@
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.label16 = new System.Windows.Forms.Label();
             this.textBox14 = new System.Windows.Forms.TextBox();
-            this.buttonDownloadNomer = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewNomer)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -144,6 +144,25 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Добавление";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // buttonDownloadNomer
+            // 
+            this.buttonDownloadNomer.BackColor = System.Drawing.Color.Firebrick;
+            this.buttonDownloadNomer.FlatAppearance.BorderColor = System.Drawing.Color.Maroon;
+            this.buttonDownloadNomer.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.buttonDownloadNomer.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.buttonDownloadNomer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.buttonDownloadNomer.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonDownloadNomer.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonDownloadNomer.ForeColor = System.Drawing.Color.White;
+            this.buttonDownloadNomer.Location = new System.Drawing.Point(915, 98);
+            this.buttonDownloadNomer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonDownloadNomer.Name = "buttonDownloadNomer";
+            this.buttonDownloadNomer.Size = new System.Drawing.Size(173, 37);
+            this.buttonDownloadNomer.TabIndex = 10;
+            this.buttonDownloadNomer.Text = "Загрузить .CSV";
+            this.buttonDownloadNomer.UseVisualStyleBackColor = false;
+            this.buttonDownloadNomer.Click += new System.EventHandler(this.buttonDownloadNomer_Click);
             // 
             // buttonAddNomer
             // 
@@ -603,25 +622,6 @@
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(151, 29);
             this.textBox14.TabIndex = 9;
-            // 
-            // buttonDownloadNomer
-            // 
-            this.buttonDownloadNomer.BackColor = System.Drawing.Color.Firebrick;
-            this.buttonDownloadNomer.FlatAppearance.BorderColor = System.Drawing.Color.Maroon;
-            this.buttonDownloadNomer.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
-            this.buttonDownloadNomer.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.buttonDownloadNomer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.buttonDownloadNomer.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonDownloadNomer.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonDownloadNomer.ForeColor = System.Drawing.Color.White;
-            this.buttonDownloadNomer.Location = new System.Drawing.Point(915, 98);
-            this.buttonDownloadNomer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.buttonDownloadNomer.Name = "buttonDownloadNomer";
-            this.buttonDownloadNomer.Size = new System.Drawing.Size(173, 37);
-            this.buttonDownloadNomer.TabIndex = 10;
-            this.buttonDownloadNomer.Text = "Загрузить .CSV";
-            this.buttonDownloadNomer.UseVisualStyleBackColor = false;
-            this.buttonDownloadNomer.Click += new System.EventHandler(this.buttonDownloadNomer_Click);
             // 
             // Rooms
             // 
